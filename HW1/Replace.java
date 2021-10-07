@@ -10,6 +10,11 @@ public class Replace {
     public String charReplace(String s, int x, char z) {
         return null;
         
+
+
+
+
+        
     }
     
 }
