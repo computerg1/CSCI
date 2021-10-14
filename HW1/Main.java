@@ -41,9 +41,9 @@ public class Main {
 
         // Create an object that implements a method which will  accept a string, an integer, and a char and will replace the char in the string at the given integer (See Replace.java for more info)
         
-        String hi = "hello people";
+        String test = "I MAKE BREAD";
         Replace testString = new Replace();
-        System.out.println(testString.charReplace(hi, 6,'c'));
+        System.out.println(testString.charReplace(test, 2,'T'));
 
     }
 }
