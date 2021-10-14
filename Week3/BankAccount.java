@@ -38,6 +38,19 @@ public class BankAccount {
         System.out.println("Amount after "+ t + " years: "+ amount);
     }
 
+    public void investment(double balance, double r, double targetBalance){
+        int year = 0; 
+        while(balance<= targetBalance){
+            year++;
+            double interest = balance * r / 100;
+            balance = balance + interest;
+        }
+        System.out.println("Total Balance: $"+ balance);
+        System.out.println("Investment doubled After "+ year + " years.");
+    }
+
+
+
     public static int menu() {
         
         int selection;

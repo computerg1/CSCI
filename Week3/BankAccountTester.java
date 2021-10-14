@@ -41,6 +41,8 @@ public class BankAccountTester {
         // creating a bank account object with the starting balance collected above 
         BankAccount userBank = new BankAccount(startingBalance);
 
+        // userBank.investment(startingBalance, 5, 20000);
+
         System.out.println("Great the account is started");
 
         int menuSelection = BankAccount.menu();

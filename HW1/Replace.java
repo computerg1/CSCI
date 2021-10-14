@@ -6,45 +6,41 @@ package HW1;
 // remember computer counting starts at 0:
 // HELLO
 // 01234
+
 public class Replace {
 
-public static void main(String[] args) { // Main method
+    public String charReplace(String s, int x, char z) {
 
-    String appleBro = "Andrew loves programing, not\n"; //assigned string with words and new line.
+        String newString = "";
 
-    System.out.println("Before: " + appleBro); //printed beofre so I can see what the string looks like. 
+        int counter = 0;
 
-    appleBro = appleBro.replaceAll("not", "").replaceAll(",", "."); //used replace all and did a double replace. 
+        if (s.charAt(x) != z){
 
-    System.out.println("After: " + appleBro); //printed after to see changes. 
+            while (counter != x){
 
-    String classExample = "I MAKE BREAD, 2, T\n"; //assigned string with words and new line.
+                newString = newString + s.charAt(counter);
 
-    System.out.println("Before: "+ classExample);//printed beofre so I can see what the string looks like.
+                counter ++;
+            }
+            newString = newString + z;
 
-    classExample = classExample.replaceAll("MAKE","TAKE").replaceAll("2, T","").replaceAll(",", ""); //used replace all and did a triple replace.
+            counter++;
 
-    System.out.println("After: " + classExample);//printed after to see changes.
+            while (newString.length() != s.length()){
 
-    String classExample2 = "HELLO\n"; //assigned string with words and new line.
+                newString = newString + s.charAt(counter);
 
-    System.out.println("Before: " + classExample2);//printed beofre so I can see what the string looks like. 
-
-    classExample2 = classExample2.replaceAll("HELLO", "01234");//used replace all and did a single replace. 
-
-    System.out.println("After: " + classExample2);//printed after to see changes.
-
-    
-
-    
-
-
-
-
-
+                counter++;
+            }
+            return newString;
+        }
+        else{
+            return s;
 }
 
 
 }
     
+}
 
