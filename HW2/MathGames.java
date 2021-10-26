@@ -29,7 +29,7 @@ public class MathGames {
 
 
 
-    // 3. Create a method that will calculate the tip on a bill
+    // 3. Create a method that will calculate the tip on a bill per person
     //      Method parameters: total bill, amount of people splitting the bill, percentage to tip.
     //      Note: I would like the total always rounded up to a whole number
     //      Hint 1: percentage can be made easier to work with if you divide by 100 so 18% is 18/100 = 0.18
@@ -42,7 +42,7 @@ public class MathGames {
 
 
     // you do not need this main if you want to make a tester class
-    public static void main(String[] args) {
+     public static void main(String[] args){
         
     }
 

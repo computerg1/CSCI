@@ -2,28 +2,27 @@ package Week4;
 
 public class Switch {
     public static void main(String[] args) {
-        String day = "Wednesday";
+        String day = "Monday";
+        // switch statement that allows a variable to be tested for equality 
+        // useful if you have a lot of if statements
 
-        // switch statement this allows to test for variable equality
-        // switch statements are good if you have a lot of if statements
-        // switch statment has case and break statements
-        
-        switch(day){
-            case "Monday": System.out.println("It is Monday my dudes!");
+        switch(day) {
+            case "Sunday": System.out.println("It is Sunday!");
             break;
-            case "Tuesday": System.out.println("It is Tuesday my dudes!");
+            case "Monday": System.out.println("It is Monday!");
             break;
-            case "Wednesday": System.out.println("It is Wednesday my dudes! AHAHHHAHAHAHHAHAHHAH");
+            case "Tuesday": System.out.println("It is Tuesday!");
             break;
-            case "Thursday": System.out.println("It is Thursday my dudes!");
+            case "Wednesday": System.out.println("It is Wednesday!");
             break;
-            case "Friday": System.out.println("It is Friday my dudes!");
+            case "Thursday": System.out.println("It is Thursday!");
             break;
-            case "Saturday": System.out.println("It is Saturday my dudes!");
+            case "Friday": System.out.println("It is Friday!");
             break;
-            case "Sunday": System.out.println("It is Sunday my dudes!");
+            case "Saturday": System.out.println("It is Saturday!");
             break;
-            default: System.out.println("This is not a valid day!");
+            default: System.out.println("This is not a day!");
+
         }
     }
 }
