@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//This is my attempt at having a cool menu driven looptastic program.
+
 public class MathGame {
 
     public static void main(String[] args) {
@@ -18,7 +18,7 @@ public class MathGame {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Please select \"1\", \"2\", or \"3\"");
+        System.out.println("Select \"1\", \"2\",\"3\" or \"4\"");
 
         int menu = sc.nextInt();
 
@@ -26,27 +26,27 @@ public class MathGame {
 
             if (menu < 1 || menu > 3) {
 
-                System.out.println("Select \"1\", \"2\", or \"3\"");
+                System.out.println("Select \"1\", \"2\",\"3\" or \"4\"");
 
                 menu = sc.nextInt();
             }
 
             else if(menu == 1){
-                //Pythagorean Theorem Object
+                //Pythagorean Theorem 
                 String trianglePythagorean = Triangle.Pythagorean();
 
                 System.out.println(trianglePythagorean);
             }
             
             else if(menu == 2){
-                //Grading Object
+                //Grading 
                 String gradingGrades = Grading.Grades();
 
                 System.out.println(gradingGrades);
             }
             
             else if(menu == 3){
-                //Tip + Bill Object
+                //Tip + Bill 
                 String tipCalculator = Tips.Bill();
 
                 System.out.println(tipCalculator);
