@@ -4,9 +4,8 @@ public class MathGame {
 
     public static void main(String[] args) {
 
-        System.out.println("HW2: Begin!");
+        //Memu:
 
-        //Menu Coding
         System.out.println("Welcome to Math Games! \nPlease Select from the following:");
         System.out.println("1- Hypotenuse Calculator.");
         System.out.println("2- Grade Calculator.");
