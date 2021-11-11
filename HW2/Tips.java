@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class Tips {
 
-    public static String Bill() {
+    public static String Billing() {
         
-        Scanner sc = new Scanner(System.in);
+        Scanner bills = new Scanner(System.in);
 
         double bill, percent, tip;
         
@@ -14,27 +14,35 @@ public class Tips {
 
         System.out.println("Amount of Poeple: ");
 
-            people = sc.nextInt();
+            people = bills.nextInt();
+
+        System.out.println();
 
         System.out.println("Cost: "); 
 
-        bill =  sc.nextDouble();
+        bill =  bills.nextDouble();
+
+        System.out.println();
 
         System.out.println("Tip... Please enter as a decimal for percent: ");
 
-            percent = sc.nextDouble();
+            percent = bills.nextDouble();
 
             tip = (bill * percent);
 
             total = (int) (bill + tip);
 
+            System.out.println();
+
         System.out.println("The total comes to $" + total);
 
         split = (int) (total/people);
 
+        System.out.println();
+
         System.out.println("If you split the bill it would cost \n $" + split + " each.");
         
-        return null;
+        return "";
 
     }
 

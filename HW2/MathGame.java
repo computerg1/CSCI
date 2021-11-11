@@ -16,38 +16,40 @@ public class MathGame {
 
         System.out.println("4- Exit");
 
-        Scanner sc = new Scanner(System.in);
+        Scanner hc = new Scanner(System.in);
 
         System.out.println("Select \"1\", \"2\",\"3\" or \"4\"");
 
-        int menu = sc.nextInt();
+
+        int menu = hc.nextInt();
 
         while (menu != 4) {
 
             if (menu < 1 || menu > 3) {
 
                 System.out.println("Select \"1\", \"2\",\"3\" or \"4\"");
-
-                menu = sc.nextInt();
+                
+                menu = hc.nextInt();
+                
             }
 
             else if(menu == 1){
                 //Pythagorean Theorem 
-                String trianglePythagorean = Triangle.Pythagorean();
+                String Pythagorean = Triangle.Pythagorean();
 
-                System.out.println(trianglePythagorean);
+                System.out.println(Pythagorean);
             }
             
             else if(menu == 2){
                 //Grading 
-                String gradingGrades = Grading.Grades();
+                String Grades = Grading.Grades();
 
-                System.out.println(gradingGrades);
+                System.out.println(Grades);
             }
             
             else if(menu == 3){
                 //Tip + Bill 
-                String tipCalculator = Tips.Bill();
+                String tipCalculator = Tips.Billing();
 
                 System.out.println(tipCalculator);
             }

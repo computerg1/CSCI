@@ -4,13 +4,13 @@ public class Grading{
 
     public static String Grades() {
 
-        Scanner gr = new Scanner(System.in);
+        Scanner grades = new Scanner(System.in);
 
         double grade;
         
         System.out.println("Welcome to the Grading Wizard\n Please Input the Number Grade: ");
 
-        grade = gr.nextDouble();
+        grade = grades.nextDouble();
 
         grade = Math.ceil(grade);
 
