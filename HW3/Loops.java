@@ -41,7 +41,7 @@ public class Loops {
         return true;
 
     }
-    
+
     else
 
     return false;
@@ -128,7 +128,7 @@ public class Loops {
             System.out.println("The total so far is "+ total + ".");
 
         }
-            while (input ! = 0); 
+            while (input != 0); 
 
             System.out.println("Total Ended -- The total is " + total + ".");
 
