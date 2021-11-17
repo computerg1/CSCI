@@ -20,11 +20,11 @@ public class Loops {
 
         int count = 0; 
 
-        for (int i = 0; i < str.length(); i++)
+        for (int i=0; i<str.length(); i++)
 
         {
 
-            if(str.charAt(i) == 'e')
+            if (str.charAt(i) == 'e')
 
         {
 
@@ -34,7 +34,7 @@ public class Loops {
 
     }
 
-    if(count>=1 && count <= 3)
+    if(count >= 1 && count <= 3)
 
     {
 
@@ -54,15 +54,19 @@ public class Loops {
     //stringTimes("Code",2) ->"CodeCode"
     //stringTimes("Code",4) ->"CodeCodeCodeCode"
     public static String stringTimes(String str, int n) {
+
        String newStri = "";
 
-       for(int i = 1; i<= n; i++);
+       for(int i=1; i<=n; i++);
 
        {
+
            newStri = newStri + str; 
+
        }
 
        return newStri; 
+
     } 
 
     //Create a method Given a string, return the string where all of the "z"
@@ -76,15 +80,14 @@ public class Loops {
 
       String newStri = str.substring(0,1); //
       
-      String newS = str.substring(1, str.length()-1); // char ch = str.charAt(str.length() + 1);
+      String newS = str.substring(1, str.length()-1); 
 
-      newStri = newStri + newStri.replace("z","");
+      newStri = newStri + newS.replace("z","");
       
       newStri = newStri + str.substring(str.length()- 1, str.length());
 
       return newStri; 
         
-
     }
 
     //Create a method that contains a while loop that allows for
@@ -119,6 +122,7 @@ public class Loops {
         int input = 0, total = 0; 
 
         {
+
             System.out.println("Number: ");
 
             input = sc.nextInt();
@@ -128,6 +132,7 @@ public class Loops {
             System.out.println("The total so far is "+ total + ".");
 
         }
+        
             while (input != 0); 
 
             System.out.println("Total Ended -- The total is " + total + ".");
