@@ -17,8 +17,21 @@ public class Loops {
     //eeeeat -> false
 
     public static boolean loopE(String str){
-        return true; // <- this should be changed 
+        int count = 0; 
+        for (int i = 0; i < str.length(); i++)
+        {
+            if(str.charAt(i) == 'e')
+        {
+            ++count;
+        }
     }
+    if(count>=1 && count <= 3)
+    {
+        return true;
+    }
+    else
+    return false;
+}
 
     //Given a String str and int n return a larger string
     //that is n copies of the original string 
@@ -26,7 +39,12 @@ public class Loops {
     //stringTimes("Code",2) ->"CodeCode"
     //stringTimes("Code",4) ->"CodeCodeCodeCode"
     public static String stringTimes(String str, int n) {
-        return null; // <- this should be changed 
+       String newStri = "";
+       for(int i = 1; i<= n; i++);
+       {
+           newStri = newStri + stri; 
+       }
+       return newStri; 
     } 
 
     //Create a method Given a string, return the string where all of the "z"
