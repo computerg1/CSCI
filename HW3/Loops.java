@@ -42,7 +42,7 @@ public class Loops {
        String newStri = "";
        for(int i = 1; i<= n; i++);
        {
-           newStri = newStri + stri; 
+           newStri = newStri + str; 
        }
        return newStri; 
     } 
@@ -55,7 +55,18 @@ public class Loops {
     //stringT("nozthaznks") -> "nothanks"
     //stringT("xksiazdjaasldzsajzasdz") -> "xksiadjaasldsajasdz"
     public static String stringZ(String str){
-        return null; // <- this should be changed 
+
+      String newStri = str.substring(0,1); //
+      
+      String newStri = str.substring(1, str.length()-1); // char ch = str.charAt(str.length() + 1);
+
+      newStri = newStri + newS.replace("z",");
+      
+      newStri = newStri + str.substring(str.length()- 1, str.length());
+
+      return newStri; 
+        
+
     }
 
     //Create a method that contains a while loop that allows for
