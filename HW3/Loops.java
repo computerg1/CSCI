@@ -154,7 +154,12 @@ public class Loops {
 
         System.out.println(stringTimes("code",4));
 
+        System.out.println("\n\nTesting for method stringZ");
+        System.out.println(stringZ("zHelloz"));
+        System.out.println(stringZ("nozthaznks"));
+        System.out.println(stringZ("xksiazdjaasldzsajzasdz"));
         
+
 
     }
     
