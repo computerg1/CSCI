@@ -17,20 +17,35 @@ public class Loops {
     //eeeeat -> false
 
     public static boolean loopE(String str){
+
         int count = 0; 
+
         for (int i = 0; i < str.length(); i++)
+
         {
+
             if(str.charAt(i) == 'e')
+
         {
+
             ++count;
+
         }
+
     }
+
     if(count>=1 && count <= 3)
+
     {
+
         return true;
+
     }
+    
     else
+
     return false;
+
 }
 
     //Given a String str and int n return a larger string
@@ -40,10 +55,13 @@ public class Loops {
     //stringTimes("Code",4) ->"CodeCodeCodeCode"
     public static String stringTimes(String str, int n) {
        String newStri = "";
+
        for(int i = 1; i<= n; i++);
+
        {
            newStri = newStri + str; 
        }
+
        return newStri; 
     } 
 
@@ -95,6 +113,29 @@ public class Loops {
     // Number: 0
     // TOTAL ENDED --- The total is 27.
     public static void sums(){
+
+        Scanner sc = new Scanner(System.in);
+
+        int input = 0, total = 0; 
+
+        {
+            System.out.println("Number: ");
+
+            input = sc.nextlnt();
+
+            total = total + input;
+
+            System.out.println("The total so far is "+ total + ".");
+
+        }
+            while (input ! = 0); 
+
+            System.out.println("Total Ended -- The total is " + total + ".");
+
+            sc.close(); 
+
+        }
+
     }
 
     public static void main(String[] args) {
