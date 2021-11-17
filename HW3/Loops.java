@@ -60,7 +60,7 @@ public class Loops {
       
       String newStri = str.substring(1, str.length()-1); // char ch = str.charAt(str.length() + 1);
 
-      newStri = newStri + newS.replace("z",");
+      newStri = newStri + newStri.replace("z","");
       
       newStri = newStri + str.substring(str.length()- 1, str.length());
 
