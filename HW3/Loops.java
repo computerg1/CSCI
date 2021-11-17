@@ -136,10 +136,25 @@ public class Loops {
 
         }
 
-    }
-
     public static void main(String[] args) {
         // Add code to help test your methods here
+        System.out.println("Testing for method loopE");
+
+        System.out.println(loopE("eat"));
+
+        System.out.println(loopE("eeat"));
+
+        System.out.println(loopE("eeeat"));
+
+        System.out.println(loopE("eeeeat"));
+
+        System.out.println("\n\nTesting for method stringTimes");
+
+        System.out.println(stringTimes("code",2));
+
+        System.out.println(stringTimes("code",4));
+
+        
 
     }
     
