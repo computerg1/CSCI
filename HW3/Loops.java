@@ -1,4 +1,4 @@
-package HW3;
+
 import java.util.Scanner;
 
 public class Loops {
@@ -119,7 +119,7 @@ public class Loops {
 
         Scanner sc = new Scanner(System.in);
 
-        int input = 0, total = 0; 
+        int input=0, total=0; 
 
         {
 
@@ -129,13 +129,13 @@ public class Loops {
 
             total = total + input;
 
-            System.out.println("The total so far is "+ total + ".");
+            System.out.println("The total so far is "+total+".");
 
         }
-        
+
             while (input != 0); 
 
-            System.out.println("Total Ended -- The total is " + total + ".");
+            System.out.println("Total Ended -- The total is "+total+".");
 
             sc.close(); 
 
@@ -170,9 +170,6 @@ public class Loops {
         System.out.println("\n\nTesting for method sums");
 
         sums();
-
-
-
 
     }
     
