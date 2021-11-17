@@ -121,7 +121,7 @@ public class Loops {
         {
             System.out.println("Number: ");
 
-            input = sc.nextlnt();
+            input = sc.nextInt();
 
             total = total + input;
 
