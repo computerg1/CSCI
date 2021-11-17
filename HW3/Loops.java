@@ -76,7 +76,7 @@ public class Loops {
 
       String newStri = str.substring(0,1); //
       
-      String newStri = str.substring(1, str.length()-1); // char ch = str.charAt(str.length() + 1);
+      String newS = str.substring(1, str.length()-1); // char ch = str.charAt(str.length() + 1);
 
       newStri = newStri + newStri.replace("z","");
       
