@@ -1,4 +1,4 @@
-package HW1;
+
 /*
 Make the output look like this:
 #

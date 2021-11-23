@@ -57,7 +57,7 @@ public class Loops {
 
        String newStri = "";
 
-       for(int i=1; i<=n; i++); //for loop repeats n times. 
+       for(int i=0; i<n; i++); //for loop repeats n times. 
 
        {
 
@@ -157,9 +157,11 @@ public class Loops {
 
         System.out.println("\n\nTesting for method stringTimes");
 
-        System.out.println(stringTimes("code",2));
+        System.out.print(stringTimes("code",6));
 
-        System.out.println(stringTimes("code",4));
+        System.out.println();
+
+        System.out.print(stringTimes("code",4));
 
         System.out.println("\n\nTesting for method stringZ");
 

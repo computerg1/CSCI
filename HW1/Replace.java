@@ -1,4 +1,4 @@
-package HW1;
+
 // Make a method that accepts a string and an integer and a char and will return the string with the char
 // replaced at the integer given
 // EX I MAKE BREAD, 2, T
