@@ -57,7 +57,7 @@ public class Loops {
 
        String newStri = "";
 
-       for(int i=0; i<n; i++); //for loop repeats n times. 
+       for(int i=0; i<n; i++) //for loop repeats n times. 
 
        {
 
@@ -81,7 +81,7 @@ public class Loops {
       String newStri = str.substring(0,1); // add first character to the string. 
 
       String newS = str.substring(1, str.length()-1); // used a replace method which replaces every Z with an empty string... nto firts or last. 
-
+      
       newStri = newStri + newS.replace("z","");
       
       newStri = newStri + str.substring(str.length()- 1, str.length()); //adds last charctar to the string. 
@@ -157,11 +157,9 @@ public class Loops {
 
         System.out.println("\n\nTesting for method stringTimes");
 
-        System.out.print(stringTimes("code",6));
+        System.out.println(stringTimes("code",2));
 
-        System.out.println();
-
-        System.out.print(stringTimes("code",4));
+        System.out.println(stringTimes("code",4));
 
         System.out.println("\n\nTesting for method stringZ");
 
