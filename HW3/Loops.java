@@ -24,7 +24,7 @@ public class Loops {
 
         {
 
-            if (str.charAt(i) == 'e')
+            if (str.charAt(i) == 'e') // to check if the charcter is equal to e.
 
         {
 
@@ -34,7 +34,7 @@ public class Loops {
 
     }
 
-    if(count >= 1 && count <= 3)
+    if(count >= 1 && count <= 3) //this checks if the count is between 1 and 3 then returns true or false. 
 
     {
 
@@ -42,7 +42,7 @@ public class Loops {
 
     }
 
-    else
+    else  // not between 1-3 
 
     return false;
 
@@ -57,15 +57,15 @@ public class Loops {
 
        String newStri = "";
 
-       for(int i=1; i<=n; i++);
+       for(int i=1; i<=n; i++); //for loop repeats n times. 
 
        {
 
-           newStri = newStri + str; 
+           newStri = newStri + str; //each iteration the string is concatenated
 
        }
 
-       return newStri; 
+       return newStri; //concatenated string returned. 
 
     } 
 
@@ -78,15 +78,15 @@ public class Loops {
     //stringT("xksiazdjaasldzsajzasdz") -> "xksiadjaasldsajasdz"
     public static String stringZ(String str){
 
-      String newStri = str.substring(0,1); //
-      
-      String newS = str.substring(1, str.length()-1); 
+      String newStri = str.substring(0,1); // add first character to the string. 
+
+      String newS = str.substring(1, str.length()-1); // used a replace method which replaces every Z with an empty string... nto firts or last. 
 
       newStri = newStri + newS.replace("z","");
       
-      newStri = newStri + str.substring(str.length()- 1, str.length());
+      newStri = newStri + str.substring(str.length()- 1, str.length()); //adds last charctar to the string. 
 
-      return newStri; 
+      return newStri; //returns the string. 
         
     }
 
@@ -120,24 +120,26 @@ public class Loops {
         Scanner sc = new Scanner(System.in);
 
         int input=0, total=0; 
+        
+        do 
 
         {
 
             System.out.println("Number: ");
 
-            input = sc.nextInt();
+            input = sc.nextInt();//uses the scanner to get the inout fromt her user. 
 
-            total = total + input;
+            total = total + input;//finds the input/finds the sum. 
 
-            System.out.println("The total so far is "+total+".");
+            System.out.println("The total so far is "+total+".");//gives the user the total. 
 
         }
 
-            while (input != 0); 
+            while (input != 0); //while loop... checks to see if the input is not equel to 0. 
 
             System.out.println("Total Ended -- The total is "+total+".");
 
-            sc.close(); 
+            sc.close(); //closed the scanner. 
 
         }
 
