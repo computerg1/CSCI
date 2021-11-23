@@ -120,8 +120,8 @@ public class Loops {
         Scanner sc = new Scanner(System.in);
 
         int input=0, total=0; 
-        
-        do 
+
+        do // do while loop... makes sure that 0 is not entered. 
 
         {
 
