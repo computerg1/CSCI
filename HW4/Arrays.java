@@ -28,14 +28,15 @@ public class Arrays {
         
         int[] arr = new int[10]; 
 
-        for(int i=0; i<10; i++){
+        for(int i=0; i < 10; i++){
 
-            arr{i}
-
-
+            arr[i] = sc.nextInt();
 
         }
 
+        for(int i = 1; i < 10; i++) System.out.println(arr[i]);
+
+        sc.close();
 
 
 
