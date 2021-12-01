@@ -43,9 +43,7 @@ public class Arrays {
 
         }
         
-        for(int i = 0; i < 10; i++ ); 
-
-        System.out.println(arr[i]);
+        for(int i = 0; i < 10; i++ ) System.out.println(arr[i]);
 
         sc.close(); 
 
@@ -145,13 +143,13 @@ public class Arrays {
 
     Scanner sc = new Scanner(System.in); 
 
-    int n = sc.nextint(); 
+    int n = sc.nextInt(); 
 
     int[] nums = new int[n]; 
 
-    for (int i = 0; i < n; i++) nums[i] = sc.nextint(); 
+    for (int i = 0; i < n; i++) nums[i] = sc.nextInt(); 
 
-    int[] sortedArry = sorter(nums); 
+    int[] sortedArray = sorter(nums); 
 
     for(int i = 0; i < n; i++) System.out.println(sortedArray[i]);
 
