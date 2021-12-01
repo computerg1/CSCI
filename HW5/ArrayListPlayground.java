@@ -11,6 +11,8 @@ public class ArrayListPlayground {
     // c) Set the value of the 5th element of the array alpha to 99.
     // d) Set the value of the 9th element of the array alpha to the sum of the 6th and 13th elements of the array nums.
 
+    //Question A
+
     int[] alpha = new int[15];
 
     alpha[0] = 1;
@@ -38,12 +40,21 @@ public class ArrayListPlayground {
     alpha[11] = 12;
 
     alpha[12] = 13;
-    
+
     alpha[13] = 14;
 
     alpha[14] = 15;
-    
 
+    //Question B
+
+    System.out.println("value of 10:-" + alpha[10]);
+
+    //Question C
+
+    alpha[5] = 99; 
+
+    System.out.println("\n value of index of 5:-" + alpha[5]);
+    
 
 
     // Question 2
