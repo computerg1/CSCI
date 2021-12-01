@@ -12,7 +12,20 @@ public class ArrayListPlayground {
     // d) Set the value of the 9th element of the array alpha to the sum of the 6th and 13th elements of the array nums.
 
     int[] alpha = new int[15];
-    
+
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
+    alpha[0] = 1;
     alpha[0] = 1;
 
 
