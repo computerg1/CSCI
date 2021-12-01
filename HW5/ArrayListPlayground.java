@@ -11,7 +11,7 @@ public class ArrayListPlayground {
     // c) Set the value of the 5th element of the array alpha to 99.
     // d) Set the value of the 9th element of the array alpha to the sum of the 6th and 13th elements of the array nums.
 
-    //Question A
+    //Question 1A
 
     int[] alpha = new int[15];
 
@@ -45,17 +45,21 @@ public class ArrayListPlayground {
 
     alpha[14] = 15;
 
-    //Question B
+    //Question 1B
 
     System.out.println("value of 10:-" + alpha[10]);
 
-    //Question C
+    //Question 1C
 
     alpha[5] = 99; 
 
     System.out.println("\n value of index of 5:-" + alpha[5]);
     
+    //Question 1D
 
+    alpha[9] = alpha[6] + alpha[13]; 
+
+    System.out.println("\n value of index of 9 is sum of 6 + 13:- " + alpha[9]);
 
     // Question 2
     // a) create an arrayList of Strings that contain each day of the week.(starting on monday)
