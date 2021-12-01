@@ -11,7 +11,6 @@ public class ArrayListPlayground {
 
 
 
-
     // Question 2
     // a) create an arrayList of Strings that contain each day of the week.(starting on monday)
     // b) output each of the days of the week
