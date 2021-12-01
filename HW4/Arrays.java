@@ -29,7 +29,7 @@ public class Arrays {
 
         Scanner sc = new Scanner(System.in);
         
-        int[] arr = new int[10]; 
+        int[] arr = new int[10]; // the size can be assumed as 10. 
 
         for(int i=0; i < 10; i++){
 
@@ -74,15 +74,15 @@ public class Arrays {
 
         int n = password.length(); 
 
-        int m = 66; 
+        int m = 66; //length of the char array "alphabet"
 
         int index = 0; 
 
-        for(int i = 0; i < n; i++){
+        for(int i = 0; i < n; i++){ 
 
         for(int j = 0; j < m; j++){
 
-        if(alphabet[i]==password.charAt(index)){
+        if(alphabet[j]==password.charAt(index)){
 
         answer+=alphabet[j]; 
 
@@ -121,7 +121,7 @@ public class Arrays {
 
         if(nums[j] > nums [j + 1]){
 
-        int temp = nums[j + 1]; 
+        int temp = nums[j]; 
 
         nums[j] = nums[j + 1]; 
 
