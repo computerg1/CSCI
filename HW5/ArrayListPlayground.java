@@ -1,5 +1,7 @@
 package HW5;
 
+import java.util.*;
+
 public class ArrayListPlayground {
     public static void main(String[] args) {
     // Question 1
@@ -8,6 +10,10 @@ public class ArrayListPlayground {
     // b) Output the value of the tenth element of the array nums.
     // c) Set the value of the 5th element of the array alpha to 99.
     // d) Set the value of the 9th element of the array alpha to the sum of the 6th and 13th elements of the array nums.
+
+    int[] alpha = new int[15];
+    
+    alpha[0] = 1;
 
 
 
