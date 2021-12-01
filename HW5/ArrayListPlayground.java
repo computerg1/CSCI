@@ -14,19 +14,33 @@ public class ArrayListPlayground {
     int[] alpha = new int[15];
 
     alpha[0] = 1;
+
     alpha[1] = 2;
+
     alpha[2] = 3;
+
     alpha[3] = 4;
+
     alpha[4] = 5;
+
     alpha[5] = 6;
+
     alpha[6] = 7;
+
     alpha[7] = 8;
+
     alpha[8] = 9;
+
     alpha[9] = 10;
+
     alpha[10] = 11;
+
     alpha[11] = 12;
+
     alpha[12] = 13;
+    
     alpha[13] = 14;
+
     alpha[14] = 15;
     
 
