@@ -1,5 +1,7 @@
 package HW4;
 
+import javax.xml.transform.stream.StreamSource;
+
 public class Arrays {
 
     // CONVERT THE SUMS METHOD FROM HW3 TO ADD EACH VALUE TO AN ARRAY AND THEN OUTPUT THE 
@@ -71,32 +73,25 @@ public class Arrays {
 
             for(int j = 0; j < m; j++){
 
-                if()
+                if(alphabet[i]==password.charAt(index)){
+
+                    answer+=alphabet[j]; 
+
+                    System.out.println(answer);
+
+                    index++; 
 
 
+                    break;
 
+                }
 
             }
 
-
-
-
-
        }
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
-       
+
         return answer; 
+
     }
 
     // Create a method that will sort an Array of integers from smallest to greatest.
