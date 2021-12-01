@@ -102,7 +102,24 @@ public class Arrays {
     // Hint 1: a temp Array is a helpful way to store variables for comparing 
     // Hint 2: 2 nested For loops should be all thats needed for the swapping logic
     public static int[] sorter(int[] nums){
+
         int [] sortedArray = new int[nums.length];
+
+        int n = nums.length; 
+
+        for(int i = 0; i < n - 1; i++){
+
+            for
+
+
+
+        }
+
+
+
+
+
+
 
         return sortedArray;
     }
