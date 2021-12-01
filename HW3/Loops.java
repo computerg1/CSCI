@@ -81,7 +81,7 @@ public class Loops {
       String newStri = str.substring(0,1); // add first character to the string. 
 
       String newS = str.substring(1, str.length()-1); // used a replace method which replaces every Z with an empty string... nto firts or last. 
-      
+
       newStri = newStri + newS.replace("z","");
       
       newStri = newStri + str.substring(str.length()- 1, str.length()); //adds last charctar to the string. 
@@ -176,3 +176,5 @@ public class Loops {
     }
     
 }
+
+

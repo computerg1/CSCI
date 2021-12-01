@@ -24,6 +24,21 @@ public class Arrays {
     // Array: {12,2,3,4,1,0}
     public static void Arraysums(){
 
+        Scanner sc = new Scanner(System.in);
+        
+        int[] arr = new int[10]; 
+
+        for(int i=0; i<10; i++){
+
+            arr{i}
+
+
+
+        }
+
+
+
+
     }
 
     // Create a method that will brute force a password EX.
