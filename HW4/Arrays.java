@@ -1,4 +1,5 @@
 
+import java.util.Scanner;
 
 import javax.xml.transform.stream.StreamSource;
 
@@ -32,13 +33,21 @@ public class Arrays {
 
         for(int i=0; i < 10; i++){
 
-            arr[i] = sc.nextInt();
+        arr[i] = sc.nextInt();
 
         }
 
-        for(int i = 1; i < 10; i++) System.out.println(arr[i]);
+        for(int i = 1; i < 10; i++){
+        
+        arr[i] = arr[i] + arr[i - 1]; 
 
-        sc.close();
+        }
+        
+        for(int i = 0; i < 10; i++ ); 
+
+        System.out.println(arr[i]);
+
+        sc.close(); 
 
     }
 
@@ -58,37 +67,38 @@ public class Arrays {
     // From there creating for and while loops to compare the values is trivial
 
     public static String bruteForce(String password){
+
         String answer = "";
+
         char[] alphabet = new char[]{'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
         'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z',
         '!', '@', '#', '$', '%', '^', '&', '*', '(', ')','<','>','/','?'};
-    
-       int n = password.lenght(); 
 
-       int m = 66; 
+        int n = password.length(); 
 
-       int index = 0; 
+        int m = 66; 
 
-       for(int i = 0; i < n; i++){
+        int index = 0; 
 
-            for(int j = 0; j < m; j++){
+        for(int i = 0; i < n; i++){
 
-                if(alphabet[i]==password.charAt(index)){
+        for(int j = 0; j < m; j++){
 
-                    answer+=alphabet[j]; 
+        if(alphabet[i]==password.charAt(index)){
 
-                    System.out.println(answer);
+        answer+=alphabet[j]; 
 
-                    index++; 
+        System.out.println(answer);
 
+        index++; 
 
-                    break;
+        break;
 
-                }
+        }
 
-            }
+        }
 
-       }
+        }
 
         return answer; 
 
@@ -109,19 +119,19 @@ public class Arrays {
 
         for(int i = 0; i < n - 1; i++){
 
-            for(int j = 0; j < n - i - 1; j++){
+        for(int j = 0; j < n - i - 1; j++){
 
-                if(nums[j] > nums [j + 1]){
+        if(nums[j] > nums [j + 1]){
 
-                    int temp = nums[j + 1]; 
+        int temp = nums[j + 1]; 
 
-                    nums[j] = nums[j + 1]; 
+        nums[j] = nums[j + 1]; 
 
-                    nums[j + 1] = temp; 
+        nums[j + 1] = temp; 
 
-                }
+        }
 
-            }
+        }
 
         }
 
@@ -143,9 +153,7 @@ public class Arrays {
 
     int[] sortedArry = sorter(nums); 
 
-    for(int i = 0; i < n; i++); 
-
-    System.out.println(sortedArray[i]);
+    for(int i = 0; i < n; i++) System.out.println(sortedArray[i]);
 
     sc.close(); 
 
