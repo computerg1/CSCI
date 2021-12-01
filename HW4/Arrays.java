@@ -1,4 +1,4 @@
-package HW4;
+
 
 import javax.xml.transform.stream.StreamSource;
 
@@ -143,16 +143,12 @@ public class Arrays {
 
     int[] sortedArry = sorter(nums); 
 
-    for
+    for(int i = 0; i < n; i++); 
 
+    System.out.println(sortedArray[i]);
 
-
+    sc.close(); 
 
     }
-
-    
-
-
-
 
 }
