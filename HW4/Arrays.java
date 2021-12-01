@@ -133,7 +133,26 @@ public class Arrays {
 
     public static void main(String[] args) {
 
+    Scanner sc = new Scanner(System.in); 
+
+    int n = sc.nextint(); 
+
+    int[] nums = new int[n]; 
+
+    for (int i = 0; i < n; i++) nums[i] = sc.nextint(); 
+
+    int[] sortedArry = sorter(nums); 
+
+    for
+
+
+
+
     }
 
     
+
+
+
+
 }
