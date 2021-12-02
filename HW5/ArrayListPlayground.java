@@ -68,6 +68,15 @@ public class ArrayListPlayground {
     // d) output the days of the week that we have class 
     // e) change the arrayList to start on Sunday
 
+        ArrayList<string> alist = new ArrayList <String>(); 
+
+
+
+
+
+
+
+
 
     // Question 3 
     // a) create an ArrayList and prompt the user for numbers to add to it until the number 0 is selected
