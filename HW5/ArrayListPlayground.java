@@ -130,11 +130,54 @@ public class ArrayListPlayground {
 
         System.out.println("sortedList: " + Sorted(arr));
 
+        public static int smallestVal(ArrayList < integer > arr){
+
+            int n = arr.size();
+
+            int min = arr.get(0); 
+
+            for (int i = 1; i < n; i++){
+
+                if(arr.get(i) < min){
+
+                    min = arr.get(i); 
+
+                }
+            }
+
+            return min;
+
+        }
+
+
+        public static int largestVal(ArrayList < integer > arr){
+
+            int n = arr.size();
+
+            int max = arr.get(0); 
+
+            for (int i = 1; i < n; i++){
+
+                if(arr.get(i) > max){
+
+                    max = arr.get(i); 
+
+                }
+            }
+
+            return max;
+
+        }
+
+
+
+
+
+
+
+
+
         
-
-
-
-
 
     }
    
