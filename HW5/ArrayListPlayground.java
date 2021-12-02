@@ -72,11 +72,13 @@ public class ArrayListPlayground {
         
         alist.add("Monday"); 
         alist.add("Tuesday"); 
-        alist.add("Monday"); 
-        alist.add("Monday"); 
-        alist.add("Monday"); 
-        alist.add("Monday"); 
-        alist.add("Monday"); 
+        alist.add("Wednesday"); 
+        alist.add("Thursday"); 
+        alist.add("Friday"); 
+        alist.add("Saturday"); 
+        alist.add("Sunday"); 
+
+        System.out.println(alist);
 
 
         
