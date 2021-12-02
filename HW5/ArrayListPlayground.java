@@ -71,23 +71,20 @@ public class ArrayListPlayground {
     ArrayList < string > alist = new ArrayList < String > (); 
         
         alist.add("Monday"); 
+
         alist.add("Tuesday"); 
+
         alist.add("Wednesday"); 
+
         alist.add("Thursday"); 
+
         alist.add("Friday"); 
+
         alist.add("Saturday"); 
+
         alist.add("Sunday"); 
 
         System.out.println(alist);
-
-
-        
-
-
-
-
-
-
 
 
     // Question 3 
@@ -104,6 +101,35 @@ public class ArrayListPlayground {
     // ArrayList Size: 7
     // Please enter 2 more numbers to create the matrix...
     // 
+
+        Scanner sc =  new Scanner(System.in); 
+
+        ArrayList < integer > arr = new ArrayList < integer > (1);
+
+        while(true){
+
+            System.out.println("Enter a number(0 to exit) :");
+
+            int n = sc.nextint();
+
+            if(n == 0){
+
+                break;
+            }
+
+            else{
+
+                arr.add(n); 
+            }
+
+        }
+
+        
+
+
+
+
+
     }
    
 }
