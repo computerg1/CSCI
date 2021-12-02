@@ -169,15 +169,58 @@ public class ArrayListPlayground {
 
         }
 
+        public static ArryList < integer > Sorted(ArrayList < integer > arr){
 
+            ArrayList < integer > sec_list = new ArrayList < integer > ();
 
+            sec_list = (ArrayList < integer > ) arr.clone();
 
+            Collections.sort(sec_list); 
 
+            return sec_list;
+
+        }
+
+        public static void fromMatrix(ArrayList < integer > arr) {
+
+            int n = arr.size(); 
+
+            if(n % 3 != 0){
+
+                Scanner x = new Scanner(system.in); 
+
+                System.out.println("Please enter " + (3 - n % 3) + " more numbers to create matrix. ");
+                
+                for (int i = 0; i < (3 - n % 3); i++){
+
+                    int p = x.nextint(); 
+                    
+                    arr.add(p); 
+                }
+
+                x.close(); 
+            }
+
+            for(int i = 0; i < arr.size(); i++){
+
+                if( i % 3 == 0)
+
+                    System.out.println("\n");
+
+                System.out.println(arr.get(i) + "\t");
+
+            }
 
 
 
 
         
+
+
+
+
+
+
 
     }
    
