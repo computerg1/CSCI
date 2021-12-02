@@ -68,23 +68,23 @@ public class ArrayListPlayground {
     // d) output the days of the week that we have class 
     // e) change the arrayList to start on Sunday
 
-    ArrayList < string > alist = new ArrayList < String > (); 
+    ArrayList < string > days = new ArrayList < String > (); 
         
-        alist.add("Monday"); 
+        days.add("Monday"); 
 
-        alist.add("Tuesday"); 
+        days.add("Tuesday"); 
 
-        alist.add("Wednesday"); 
+        days.add("Wednesday"); 
 
-        alist.add("Thursday"); 
+        days.add("Thursday"); 
 
-        alist.add("Friday"); 
+        days.add("Friday"); 
 
-        alist.add("Saturday"); 
+        days.add("Saturday"); 
 
-        alist.add("Sunday"); 
+        days.add("Sunday"); 
 
-        System.out.println(alist);
+        
 
 
     // Question 3 
@@ -210,17 +210,6 @@ public class ArrayListPlayground {
                 System.out.println(arr.get(i) + "\t");
 
             }
-
-
-
-
-        
-
-
-
-
-
-
 
     }
    
