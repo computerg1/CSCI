@@ -68,21 +68,23 @@ public class ArrayListPlayground {
     // d) output the days of the week that we have class 
     // e) change the arrayList to start on Sunday
 
-    ArrayList < string > days = new ArrayList < String > (); 
+    ArrayList < string > days = new ArrayList < String > (); //ArryList to strioe the days of the week. 
         
-        days.add("Monday"); 
+        days.add("Monday"); // added the days to the list
 
-        days.add("Tuesday"); 
+        days.add("Tuesday"); // added the days to the list
 
-        days.add("Wednesday"); 
+        days.add("Wednesday"); // added the days to the list
 
-        days.add("Thursday"); 
+        days.add("Thursday"); // added the days to the list
 
-        days.add("Friday"); 
+        days.add("Friday"); // added the days to the list
 
-        days.add("Saturday"); 
+        days.add("Saturday"); // added the days to the list
 
-        days.add("Sunday"); 
+        days.add("Sunday"); // added the days to the list
+
+        Iterator < String > it = days.iterator(); 
 
         
 
