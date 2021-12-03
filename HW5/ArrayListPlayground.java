@@ -98,11 +98,17 @@ public class ArrayListPlayground {
 
         it = days.iterator(); //re-initializr the iterator object. 
 
-        System.out.println("\n Days of the week we have class: \n");
+        System.out.println("\n Days of the week we have class: \n"); // The days we ahve class on 
 
         while(it.hasNext()){
 
-            
+            String day = it.next(); 
+
+            if(day.equals("Tuesday") || day.equals("thursday")){
+
+                System.out.println(day);
+
+            }
 
         }
 
