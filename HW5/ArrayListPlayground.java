@@ -84,7 +84,17 @@ public class ArrayListPlayground {
 
         days.add("Sunday"); // added the days to the list
 
-        Iterator < String > it = days.iterator(); 
+        Iterator < String > it = days.iterator(); // delcaring and initailizing an iterator oject to iterate through the list. 
+
+        System.out.println("\n Days of The Week: \n"); // Printing out the days of the week. 
+
+            while(it.hasNext()){
+
+                String day = it.next(); 
+
+                System.out.println(day);
+
+            }
 
         
 
