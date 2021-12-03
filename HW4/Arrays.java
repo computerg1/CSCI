@@ -28,10 +28,12 @@ public class Arrays {
     public static void Arraysums(){
 
         Scanner sc = new Scanner(System.in);
+
+        int temp = 0;
         
         int[] arr = new int[10]; // the size can be assumed as 10. 
 
-        for(int i=0; i < 10; i++){
+        for(int i=0; i < 10; i++){ // increasing the numbers 1-10; 
 
         arr[i] = sc.nextInt();
 
@@ -39,11 +41,15 @@ public class Arrays {
 
         for(int i = 1; i < 10; i++){
         
-        arr[i] = arr[i] + arr[i - 1]; 
+        temp = temp + arr[i]; 
 
         }
-        
-        for(int i = 0; i < 10; i++ ) System.out.println(arr[i]);
+
+        for(int i = 0; i < 10; i++ ) System.out.print(arr[i]);
+
+        System.out.println();
+
+        System.out.println(temp);
 
         sc.close(); 
 
@@ -141,19 +147,22 @@ public class Arrays {
 
     public static void main(String[] args) {
 
-    Scanner sc = new Scanner(System.in); 
+        //Arraysums(); 
 
-    int n = sc.nextInt(); 
+        //bruteForce("ZZZZ");
 
-    int[] nums = new int[n]; 
+        int Test[] = {9,10,2,5,3,4,7,8,};
 
-    for (int i = 0; i < n; i++) nums[i] = sc.nextInt(); 
+        int outPut[] = sorter(Test);
 
-    int[] sortedArray = sorter(nums); 
+        for (int i : outPut) {
+            
+            System.out.print(i);
 
-    for(int i = 0; i < n; i++) System.out.println(sortedArray[i]);
+        }
 
-    sc.close(); 
+        //System.out.println(sorter(Test));
+
 
     }
 
