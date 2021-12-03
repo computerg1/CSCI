@@ -98,7 +98,7 @@ public class ArrayListPlayground {
 
         it = days.iterator(); //re-initializr the iterator object. 
 
-        System.out.println("\n Days of the week we have class: \n"); // The days we ahve class on 
+        System.out.println("\n Days of the week we have class: \n"); // The days we ahve class on. 
 
         while(it.hasNext()){
 
@@ -109,8 +109,17 @@ public class ArrayListPlayground {
                 System.out.println(day);
 
             }
+  
+        }
+
+        String tempDay = days.get(6); //to make sunday the first day of the week. 
+
+        for(int i = 6; i > 0; i--){
+
+
 
         }
+
 
 
     // Question 3 
