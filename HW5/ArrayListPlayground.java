@@ -1,6 +1,7 @@
-package HW5;
 
-import java.util.*;
+import java.util.ArrayList; 
+
+import java.util.iterator; 
 
 public class ArrayListPlayground {
     public static void main(String[] args) {
@@ -68,6 +69,9 @@ public class ArrayListPlayground {
     // d) output the days of the week that we have class 
     // e) change the arrayList to start on Sunday
 
+
+    // Question A
+
     ArrayList < string > days = new ArrayList < String > (); //ArryList to strioe the days of the week. 
         
         days.add("Monday"); // added the days to the list
@@ -84,6 +88,8 @@ public class ArrayListPlayground {
 
         days.add("Sunday"); // added the days to the list
 
+        // Question B
+
         Iterator < String > it = days.iterator(); // delcaring and initailizing an iterator oject to iterate through the list. 
 
         System.out.println("\n Days of The Week: \n"); // Printing out the days of the week. 
@@ -95,6 +101,10 @@ public class ArrayListPlayground {
                 System.out.println(day);
 
             }
+
+
+        // Question C
+
 
         it = days.iterator(); //re-initializr the iterator object. 
 
@@ -112,14 +122,31 @@ public class ArrayListPlayground {
   
         }
 
+        // Question D
+
         String tempDay = days.get(6); //to make sunday the first day of the week. 
 
         for(int i = 6; i > 0; i--){
 
-
+            days.set(i, days.get(i - 1));
 
         }
 
+        days.set(0,tempDay); 
+
+        // Question E
+
+        it = days.iterator(); // to re-initialize the iterator object. 
+
+        System.out.println("\n Days of the week(Starting from Sunday): \n"); // printing the days of the week starting from sunday. 
+
+        while(it.hasNext()){
+
+            String day = it.next(); 
+
+            System.out.println(day);
+
+        }
 
 
     // Question 3 
