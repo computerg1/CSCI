@@ -96,7 +96,15 @@ public class ArrayListPlayground {
 
             }
 
-        
+        it = days.iterator(); //re-initializr the iterator object. 
+
+        System.out.println("\n Days of the week we have class: \n");
+
+        while(it.hasNext()){
+
+            
+
+        }
 
 
     // Question 3 
