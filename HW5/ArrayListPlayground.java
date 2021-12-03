@@ -74,7 +74,7 @@ public class ArrayListPlayground {
 
     // Question A
 
-    ArrayList < string > days = new ArrayList < String > (); //ArryList to strioe the days of the week. 
+    ArrayList < String > days = new ArrayList < String > (); //ArryList to strioe the days of the week. 
         
         days.add("Monday"); // added the days to the list
 
@@ -179,11 +179,13 @@ public class ArrayListPlayground {
             if(n == 0){
 
                 break;
+
             }
 
             else{
 
                 arr.add(n); 
+
             }
 
         }
@@ -214,7 +216,7 @@ public class ArrayListPlayground {
         }
 
 
-        public static int largestVal(ArrayList < integer > arr){
+        public static int largestVal(ArrayList < Integer > arr){
 
             int n = arr.size();
 
@@ -233,11 +235,11 @@ public class ArrayListPlayground {
 
         }
 
-        public static ArryList < integer > Sorted(ArrayList < integer > arr){
+        public static ArrayList < Integer > Sorted(ArrayList < Integer > arr){
 
-            ArrayList < integer > sec_list = new ArrayList < integer > ();
+            ArrayList < Integer > sec_list = new ArrayList < Integer > ();
 
-            sec_list = (ArrayList < integer > ) arr.clone();
+            sec_list = (ArrayList < Integer > ) arr.clone();
 
             Collections.sort(sec_list); 
 
@@ -245,19 +247,19 @@ public class ArrayListPlayground {
 
         }
 
-        public static void fromMatrix(ArrayList < integer > arr) {
+        public static void fromMatrix(ArrayList < Integer > arr) {
 
             int n = arr.size(); 
 
             if(n % 3 != 0){
 
-                Scanner x = new Scanner(system.in); 
+                Scanner x = new Scanner(System.in); 
 
                 System.out.println("Please enter " + (3 - n % 3) + " more numbers to create matrix. ");
                 
                 for (int i = 0; i < (3 - n % 3); i++){
 
-                    int p = x.nextint(); 
+                    int p = x.nextInt(); 
                     
                     arr.add(p); 
                 }
