@@ -1,7 +1,9 @@
 
 import java.util.ArrayList; 
 
-import java.util.iterator; 
+import java.util.Iterator;
+
+import java.util.*;
 
 public class ArrayListPlayground {
     public static void main(String[] args) {
@@ -166,13 +168,13 @@ public class ArrayListPlayground {
 
         Scanner sc =  new Scanner(System.in); 
 
-        ArrayList < integer > arr = new ArrayList < integer > (1);
+        ArrayList < Integer > arr = new ArrayList < Integer > (1);
 
         while(true){
 
             System.out.println("Enter a number(0 to exit) :");
 
-            int n = sc.nextint();
+            int n = sc.nextInt();
 
             if(n == 0){
 
@@ -192,7 +194,7 @@ public class ArrayListPlayground {
 
         System.out.println("sortedList: " + Sorted(arr));
 
-        public static int smallestVal(ArrayList < integer > arr){
+        public static int smallestVal(ArrayList < Integer > arr){
 
             int n = arr.size();
 
