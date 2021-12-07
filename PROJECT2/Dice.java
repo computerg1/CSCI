@@ -62,6 +62,18 @@ public class Dice {
 
         System.out.println("Enter numbevr of dice: ");
 
+        int n = die.keyboard.nextInt(); 
+
+        int[] array = new int [n]; 
+
+        for (int i = 0; i < n; i++){
+
+            array[i] = die.getValue(); 
+
+        }
+
+        boolean marked1 = false; 
+
         
 
 
