@@ -194,7 +194,7 @@ public class ArrayListPlayground {
 
         System.out.println("Smallest Item: " + smallestVal(arr));
 
-        System.out.println("sortedList: " + Sorted(arr));
+        System.out.println("SortedList: " + Sorted(arr));
 
         public static int smallestVal(ArrayList < Integer > arr){
 
