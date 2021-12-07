@@ -131,21 +131,17 @@ public class Dice {
 
             if(!marked2 && marked1){
 
-                output +
+                output += ")" + array[i]; 
 
+            } else{
 
+                output =+ array[i]; 
 
             }
 
-
         }
 
-
-
-
-
-
-
+        System.out.println(output);
 
     }
 }
