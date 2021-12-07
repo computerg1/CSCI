@@ -121,9 +121,21 @@ public class Dice {
 
                 output += array[i] + ")"; 
 
+            } else{
+
+                output += array[i]; 
 
             }
 
+        } else{ 
+
+            if(!marked2 && marked1){
+
+                output +
+
+
+
+            }
 
 
         }
