@@ -106,17 +106,29 @@ public class Dice {
 
                 } else{
 
+                    output += array[i] + " "; 
 
 
-                    
                 }         
+
+            }
+
+        }
+
+        if(array[i -1] == array[i]){
+
+            if(!marked2 && marked1){
+
+                output += array[i] + ")"; 
+
 
             }
 
 
 
-
         }
+
+
 
 
 
