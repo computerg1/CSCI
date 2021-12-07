@@ -74,7 +74,31 @@ public class Dice {
 
         boolean marked1 = false; 
 
-        
+        boolean marked2 = false; 
+
+        String output = ""; 
+
+        int i = 0; 
+
+        for (i = 0; i < n - 1; i++){ 
+
+            if (array[i] == array[i + 1]){
+
+                if(!marked1){
+
+
+
+                    
+                }
+
+            }
+
+
+
+
+        }
+
+
 
 
 
