@@ -90,7 +90,7 @@ public class Dice {
 
                     marked1 = true; 
 
-                } else {
+                } else{
 
                     output += array[i] + " "; 
 
@@ -98,7 +98,18 @@ public class Dice {
 
             } else{
 
-                
+                if(!marked2 && marked1){
+
+                    output += array[i] + ")"; 
+
+                    marked2 = true; 
+
+                } else{
+
+
+
+                    
+                }         
 
             }
 
