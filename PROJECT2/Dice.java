@@ -36,11 +36,15 @@ import java.util.Scanner;
 
 
 public class Dice {
+
     Random generator = new Random();
+
     Scanner keyboard = new Scanner(System.in);
 
     public void DiceCount() {
+
         int sides = 6;
+
     }
 
 
@@ -51,6 +55,17 @@ public class Dice {
     }
 
     public static void main(String[] args) {
+
         Dice die = new Dice();
+
+        die.DiceCount();
+
+        System.out.println("Enter numbevr of dice: ");
+
+        
+
+
+
+
     }
 }
