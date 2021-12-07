@@ -41,9 +41,11 @@ public class Dice {
 
     Scanner keyboard = new Scanner(System.in);
 
+    int sides; 
+
     public void DiceCount() {
 
-        int sides = 6;
+        this.sides = 6;
 
     }
 
