@@ -86,10 +86,19 @@ public class Dice {
 
                 if(!marked1){
 
+                    output += "(" + array[i] + " "; 
 
+                    marked1 = true; 
 
-                    
+                } else {
+
+                    output += array[i] + " "; 
+
                 }
+
+            } else{
+
+                
 
             }
 
