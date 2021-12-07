@@ -1,6 +1,6 @@
-package PROJECT2;
 
 import java.util.Random;
+
 import java.util.Scanner;
 
 // Write a program that will generate a selected amount of Dice and toss them into an array.
@@ -41,6 +41,13 @@ public class Dice {
 
     public void DiceCount() {
         int sides = 6;
+    }
+
+
+    public int getValue(){
+
+        return generator.ints(1, sides + 1).findFirst().getAsInt();
+
     }
 
     public static void main(String[] args) {
