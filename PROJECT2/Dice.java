@@ -137,7 +137,7 @@ public class Dice {
 
             } else{
 
-                output =+ array[i]; 
+                output += array[i];
 
             }
 
