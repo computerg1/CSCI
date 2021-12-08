@@ -1,4 +1,5 @@
 
+
 import java.util.ArrayList; 
 
 import java.util.Iterator;
@@ -195,6 +196,8 @@ public class ArrayListPlayground {
         System.out.println("Smallest Item: " + smallestVal(arr));
 
         System.out.println("SortedList: " + Sorted(arr));
+        
+    }
 
         public static int smallestVal(ArrayList < Integer > arr){
 
@@ -279,4 +282,5 @@ public class ArrayListPlayground {
 
     }
    
+
 }
