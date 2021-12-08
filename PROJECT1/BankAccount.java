@@ -107,13 +107,24 @@ public class BankAccount {
 
         public static void Transfer(BankAccount account1, BankAccount account2, double amount){
 
-            account1.withdraw(amount); //Deduct the amount from acct 1
+            account1.withdraw(amount); //Deduct the amount from account1
 
             System.out.println("Transferring $" + amount + "from" + account1.getBalance() + "to" + account2.getBalance());
 
-            account2.deposit(amount); 
+
+            account2.deposit(amount); //add the amount to account2
+
+            System.out.println("Amount transferred, Balance in account2: " + account2.getBalance());
 
         }
+
+
+        
+
+
+
+
+
 
     public static int menu() {
         
