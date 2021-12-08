@@ -232,6 +232,26 @@ public class BankAccount {
 
         }
 
+        public static void prompt(){
+            
+            BankAccount account = create(); 
+
+            if(account == null){
+
+                return; 
+
+            }
+
+        }
+
+        Scanner input = new Scanner(System.in); 
+
+        while(true){
+
+            System.out.println();
+
+        }
+
 
 
 
