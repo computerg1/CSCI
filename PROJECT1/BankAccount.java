@@ -1,4 +1,4 @@
-package PROJECT1;
+
 
 
 import java.util.Scanner;
@@ -54,13 +54,13 @@ public class BankAccount {
 
             Scanner input = new Scanner(System.in); 
 
-            if (account.balance <= 0){
+            if (account.balance <= 0){ // checking if the acct balance is less than or equil to 0.
 
-                System.out.println("Yopu have a Negative Balance, Would you liek to make a Deposit? (Y/N)");
+                System.out.println("Yopu have a Negative Balance, Would you liek to make a Deposit? (Y/N)"); //asking the user if they want to make a deposit. 
 
                 String answer = input.nextLine(); 
 
-                if (answer.equalsIgnoreCase("Y")){
+                if (answer.equalsIgnoreCase("Y")){ //if the user answers "Y" call the deposit method. 
 
                     account.withdraw(amount);
 
@@ -81,7 +81,7 @@ public class BankAccount {
                     if(answer.equalsIgnoreCase("Y")){
 
                         account.withdraw(amount);
-                        
+
                     }
 
 
