@@ -54,6 +54,42 @@ public class BankAccount {
 
             Scanner input = new Scanner(System.in); 
 
+            if (account.balance <= 0){
+
+                System.out.println("Yopu have a Negative Balance, Would you liek to make a Deposit? (Y/N)");
+
+                String answer = input.nextLine(); 
+
+                if (answer.equalsIgnoreCase("Y")){
+
+                    account.withdraw(amount);
+
+                }
+
+                account.balance = account.balance - 35; //charged the 35 dollar with drawl fee. 
+
+            } else{
+
+                if(account.balance - amount < 0){
+
+                    System.out.println("yoyr account balance will be Negative after this withdraw.");
+
+                    System.out.println("Contiune? (Y/N)");
+
+                    String answer =  input.nextLine(); 
+
+                    if(answer.equalsIgnoreCase("Y")){
+
+                        account.withdraw(amount);
+                        
+                    }
+
+
+                }
+
+
+            }
+
 
 
 
