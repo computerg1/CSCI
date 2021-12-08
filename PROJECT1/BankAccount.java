@@ -50,7 +50,16 @@ public class BankAccount {
         System.out.println("Investment doubled After "+ year + " years.");
     }
 
+        public static void Overdraft(BankAccount account, double amount){
 
+            Scanner input = new Scanner(System.in); 
+
+
+
+
+
+
+        }
 
     public static int menu() {
         
