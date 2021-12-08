@@ -211,11 +211,24 @@ public class BankAccount {
                 System.out.println("Years must be greater than 4");
 
                 return null; 
-                
+
             }
 
+            //compute Interest
 
+            if(selection == 1){
 
+                interestAmount = CompoundInterest(principal, rate, years);
+
+            } else if(selection == 2){ 
+
+                interestAmount = SimpleInterest(principal, rate, years); 
+
+            }
+
+            account.balance += interestAmount; //add interest to account balance
+
+            return account; 
 
         }
 
