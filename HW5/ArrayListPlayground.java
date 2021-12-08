@@ -151,7 +151,9 @@ public class ArrayListPlayground {
 
         }
 
+        System.out.println();
 
+        
     // Question 3 
     // a) create an ArrayList and prompt the user for numbers to add to it until the number 0 is selected
     // b) return the largest and smallest number
