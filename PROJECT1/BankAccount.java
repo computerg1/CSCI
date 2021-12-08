@@ -3,6 +3,8 @@
 
 import java.util.Scanner;
 
+import javax.sql.rowset.spi.SyncResolver;
+
 public class BankAccount {
     private double balance;
 
@@ -146,7 +148,76 @@ public class BankAccount {
 
         }
 
-        
+        //Savings Acct
+
+        public static BankAccount create(){
+
+            Scanner input = new Scanner(System.in); 
+
+            double initBalance, principal, rate = 0.0, interestAmount = 0.0; 
+
+            int years; 
+
+            System.out.println("Enter initial balance[Must be greater than $1,000]: ");
+
+            initBalance = Double.parseDouble(input.nextLine()); 
+
+            if(initBalance < 1000){
+
+                System.out.println("initial balance must be greater than $1,000");
+
+                return null; 
+            
+            }
+
+            BankAccount account = new BankAccount(initBalance); 
+
+            //selection on compound or simple intrest
+
+            System.out.println("1. Compound Interest\n 2. Simple Interest\n Enter Selection: ");
+
+            int selection = Integer.parseInt(input.nextLine()); 
+
+            if(selection == 1){
+
+                rate = 0.0001; 
+
+            } else if(selection == 2){
+
+                rate = 0.01;
+
+            } else{
+
+                System.out.println("invalid selection");
+
+                return null; 
+
+            }
+            
+            //asking the user required info (principle, years)
+
+            //getting the principal and years. 
+
+            System.out.println("Enter principal: ");
+
+            principal = Double.parseDouble(input.nextLine()); 
+
+            System.out.println("Enter years: ");
+
+            years = Integer.parseInt(input.nextLine()); 
+
+            if(selection == 1 && years < 4){
+
+                System.out.println("Years must be greater than 4");
+
+                return null; 
+                
+            }
+
+
+
+
+        }
 
 
 
