@@ -50,6 +50,8 @@ public class BankAccount {
         System.out.println("Investment doubled After "+ year + " years.");
     }
 
+        //Overdraft
+
         public static void Overdraft(BankAccount account, double amount){
 
             Scanner input = new Scanner(System.in); 
@@ -70,30 +72,46 @@ public class BankAccount {
 
             } else{
 
-                if(account.balance - amount < 0){
+                if(account.balance - amount < 0){ //checking to see if the balance becomes negative after the withdraw. 
 
-                    System.out.println("yoyr account balance will be Negative after this withdraw.");
+                    System.out.println("Your account balance will be Negative after this withdraw.");
 
                     System.out.println("Contiune? (Y/N)");
 
                     String answer =  input.nextLine(); 
 
-                    if(answer.equalsIgnoreCase("Y")){
+                    if(answer.equalsIgnoreCase("Y")){ //if the answer "Y" call the withdraw method. 
 
                         account.withdraw(amount);
 
                     }
 
 
+                } else{
+
+                    account.withdraw(amount); //if the acct is positive... then withdraw the amount. 
+
                 }
 
 
             }
 
+            System.out.println("Withdrawal Complete.");
+
+            System.out.println("New Balance: $" + account.balance);
+
+        }
 
 
+        //transfer 
 
+        public static void Transfer(BankAccount account1, BankAccount account2, double amount){
 
+            account1.withdraw(amount); //Deduct the amount from acct 1
+
+            System.out.println("Transferring $" + amount + "from" + account1.getBalance() + "to" + account2.getBalance());
+
+            account2.deposit(amount); 
 
         }
 
