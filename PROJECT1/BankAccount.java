@@ -119,9 +119,34 @@ public class BankAccount {
         }
 
 
+        //simple intrest
+
+        public static double SimpleIntrest(double principal, double rate, int years){
+
+            double simpleIntrest = principal * rate * years / 100.0; //compute simple interest
+
+            System.out.println("Simple Interest: $" + simpleInterest) //result 
+
+            return simpleInterest;
+
+        }
         
+        
+        //Compound Interest
 
+        public static double CompoundInterest(double principal, double rate, int years){
 
+            double compoundInterest = principal * Math.pow(1 + (rate / 100), years); //compute compound interest
+
+            compoundInterest = compoundInterest - principal; 
+
+            System.out.println("Compound Interest: $" + compoundInterest); //result 
+
+            return compoundInterest; 
+
+        }
+
+        
 
 
 
