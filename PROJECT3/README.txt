@@ -7,34 +7,31 @@
                                                                          
 Front Man: Greg Walsh
 PROJECT 3 - FALL 2021 - P&PS1
-EMAIL ME WHAT VERSION YOU WOULD LIKE AND I WILL ADD YOU TO A PRIVATE REPO 
+
+EASY MODE!!!!!!!!!!!!!!!!
 
 Task: Create a version of Episode 7 of Squid Games on Netflix.
 More information can be found here:
 https://www.vulture.com/article/squid-game-season-1-episode-7-vips.html
 https://www.netflix.com/watch/81262757?source=35
-
 GAME RECAP:
 https://www.youtube.com/watch?v=0DdmFYpqD4U
-
 WriteUp:
 There are 2 ladders R and L 
 There are 2 types of Glass, Regular and Tempered 
 Tempered Glass can hold your body weight
 Regular Glass can not hold your body weight
- 
+
 NOTE: IF YOU PICK THE EAST MODE THE HIGHEST LETTER GRADE YOU CAN GET IS B
       IF YOU PICK THE HARD MODE THE HIGHEST LETTER GRADE YOU CAN GET IS A
 EASY MODE - I give you boiler plate code and you need to follow instructions to creat the code
 HARD MODE - You are on your own other than this README to design the game how you wish
- 
 
 TO RUN THE JAVA JAR IN YOUR TERMINAL WITHIN THIS FOLDER type:
 
 java -jar SquidGame.jar
 
-NOTE: YOU MUST MAKE SURE YOU ARE IN THE PROJECT3 FOLDER
-
+NOTE: YOU MUST MAKE SURE YOU ARE IN THE SQUIDGAMESEASY FOLDER
 
 The Requirements of this project is to create the ladder game in an asci art 
 EX.
